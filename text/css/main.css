@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.title {
+    color: rgb(28, 203, 110);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text {
+    color: chocolate;
+    text-align: justify;
+    font-size: 2rem;
+    margin: 25px 25px;
+    font-family: 'Dancing Script', Courier, monospace;
+}

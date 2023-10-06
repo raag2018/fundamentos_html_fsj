@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgba(25, 110, 255, 10);
+    border: 2px solid green;
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    padding: 5px 5px;
+    font-size: 1.1rem;
+}
