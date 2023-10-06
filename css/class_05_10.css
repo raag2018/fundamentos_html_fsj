@@ -1,0 +1,14 @@
+.container {
+    background-color: khaki;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 2px solid black;
+    margin: 10px;
+    font-size: 20px;
+}
