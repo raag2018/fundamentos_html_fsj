@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    border: 1px solid purple;
+    background-color: rgb(16, 212, 100);
+    margin: 14px 20px;
+    padding: 25px;
+    border-radius: 2px;
+}
+
+.card:hover {
+    background-color: red;
+}
