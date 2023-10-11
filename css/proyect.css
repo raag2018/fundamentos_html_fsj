@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nanum+Myeongjo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 768px;
+    margin: auto;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 400px;
+    font-family: 'Nanum Myeongjo';
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.hero h1 {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.info {
+    align-self: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 200px));
+    grid-auto-rows: 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-item_big {
+    grid-area: 1 / 1 / 3 / 3;
+}
