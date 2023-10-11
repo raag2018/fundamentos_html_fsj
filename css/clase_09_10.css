@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: plum;
+    border: 1px solid purple;
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 100px 200px 300px;
+    grid-auto-flow: column;
+    height: 600px;
+    gap: 15px;
+    place-content: center;
+}
+.item{
+    border: 1px solid rebeccapurple;
+    font-size: 2rem;
+    
+    justify-items: flex-end;
+    text-align: right;
+}
